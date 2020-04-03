@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "oldtooltip",
+  "version": "${version}",
+  "name": "Old Tooltip",
+  "description": "Brings back the old tooltip!",
+  "authors": [
+    "Ambos"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Amb0s",
+    "sources": "https://github.com/Amb0s/old-tooltip"
+  },
+  "license": "MIT",
+  "icon": "assets/oldtooltip/icon.png",
+  "environment": "*",
+  "mixins": [
+    "oldtooltip.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}

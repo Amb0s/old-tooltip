@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "ambos.oldtooltip.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "MixinScreen"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
