@@ -24,5 +24,11 @@
   },
   "suggests": {
     "flamingo": "*"
+  },
+  "recommends": {
+    "modmenu": ">=1.10.2"
+  },
+  "custom": {
+    "modmenu:clientsideOnly": true
   }
 }
